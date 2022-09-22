@@ -13,10 +13,14 @@ github account
 
 # GCP links: 
 ```sh 
-
+http://34.134.176.209
+http://34.134.176.209/bootstrap
 ```
 
 # Azure links: 
 ```sh 
-
+http://20.163.110.196
+http://20.163.110.196/bootstrap
 ```
+
+The Virtual Instances are currently stopped; if needed please create an issue and it will be turned on 
