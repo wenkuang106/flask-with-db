@@ -6,7 +6,7 @@
 </head>
 <body>
     <div>
-        <h1>This is a Patient Table Without Bootstrap</h1>
+        <h1 style="text-align:center">This is a Patient Table Without Bootstrap</h1>
             <table>
                 <tr>  
                     <!-- so this part with the TH tags, deals with setting the table names -->
@@ -27,7 +27,7 @@
                 <!-- but typically we like to use a name that makes sense for the type of data that are using -->
                 {% for i in listPatients %}
                     <tr>
-                        <td> {{ i.mrn }} </td>
+                        <td style="text-align:center"> {{ i.mrn }} </td>
                         <td> {{ i.firstname }} </td>
                         <td> {{ i.lastName }} </td>
                         <td> {{ i.dob }} </td>
